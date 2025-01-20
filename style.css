@@ -4,9 +4,11 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  .bg {
+}
+
+.bg {
     position: absolute;
+    
     top: 0;
     left: 0;
     width: 100%;
@@ -14,14 +16,18 @@ section {
     z-index: -1;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
     background-repeat: no-repeat;
-  }
-  
-  h1 {
+}
+
+h1 {
     color: white;
     text-shadow: 1px 1px 3px black;
     z-index: 1;
     font-size: 3em;
     font-weight: 400;
-  }
+}
+
+.box{
+    background-color: gray;
+    text-align: center;
+}
