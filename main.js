@@ -6,7 +6,7 @@ gsap.utils.toArray("section").forEach((section, i) => {
   section.bg = section.querySelector(".bg"); 
 
   // Give the backgrounds some random images
-  section.bg.style.backgroundImage = `url(https://picsum.photos/1600/800?random=${i})`;
+
   
   // the first image (i === 0) should be handled differently because it should start at the very top.
   // use function-based values in order to keep things responsive
