@@ -4,10 +4,12 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
+    -webkit-transform: translate3d(0, 0, 0);
 }
 
 .bg {
     position: absolute;
+    -webkit-transform: translate3d(0, 0, 0);
     top: 0;
     left: 0;
     width: 100%;
